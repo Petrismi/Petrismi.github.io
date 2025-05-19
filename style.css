@@ -357,14 +357,23 @@ footer {
   border-radius: 5px;
 }
 @media (max-width: 768px) {
-  .content-wrapper {
-    flex-direction: column;
+  .dota-rank-showcase {
     align-items: center;
+    padding: 0 10px;
+    top: -100px;
   }
 
-  .right-column {
-    max-width: 90%;
-    margin-top: 20px;
+  .rank-label {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .my-rank,
+  .rank-ladder {
+    transform: scale(1); 
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
   }
 }
 .dog-rank-container {
